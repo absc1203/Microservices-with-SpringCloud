@@ -3,6 +3,6 @@ spring:
     name: 'fornecedor'
   profiles:
     active: default
-  cloud:
+  cloud:    
     config:
       uri: http://localhost:8888

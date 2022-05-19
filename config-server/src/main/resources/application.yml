@@ -4,3 +4,5 @@ server:
 spring:
   cloud:    config:      server:        git:          uri: https://github.com/absc1203/Microservices-with-SpringCloud
           search-paths: fornecedorConfig
+          
+          
