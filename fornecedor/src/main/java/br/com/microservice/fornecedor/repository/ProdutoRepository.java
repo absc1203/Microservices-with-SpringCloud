@@ -1,10 +1,10 @@
-package br.com.alura.microservice.fornecedor.repository;
+package br.com.microservice.fornecedor.repository;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import br.com.alura.microservice.fornecedor.model.Produto;
+import br.com.microservice.fornecedor.model.Produto;
 
 public interface ProdutoRepository extends CrudRepository<Produto, Long>{
 

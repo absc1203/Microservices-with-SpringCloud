@@ -1,9 +1,9 @@
-package br.com.alura.microservice.fornecedor.repository;
+package br.com.microservice.fornecedor.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import br.com.alura.microservice.fornecedor.model.InfoFornecedor;
+import br.com.microservice.fornecedor.model.InfoFornecedor;
 
 @Repository
 public interface InfoRepository extends CrudRepository<InfoFornecedor, Long>{

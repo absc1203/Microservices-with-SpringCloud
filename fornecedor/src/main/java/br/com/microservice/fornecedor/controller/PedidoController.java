@@ -1,4 +1,4 @@
-package br.com.alura.microservice.fornecedor.controller;
+package br.com.microservice.fornecedor.controller;
 
 import java.util.List;
 
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.alura.microservice.fornecedor.dto.ItemDoPedidoDTO;
-import br.com.alura.microservice.fornecedor.model.Pedido;
-import br.com.alura.microservice.fornecedor.service.PedidoService;
+import br.com.microservice.fornecedor.dto.ItemDoPedidoDTO;
+import br.com.microservice.fornecedor.model.Pedido;
+import br.com.microservice.fornecedor.service.PedidoService;
 
 @RestController
 @RequestMapping("pedido")

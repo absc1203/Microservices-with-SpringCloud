@@ -1,4 +1,4 @@
-package br.com.alura.microservice.fornecedor.service;
+package br.com.microservice.fornecedor.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -6,13 +6,13 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.alura.microservice.fornecedor.dto.ItemDoPedidoDTO;
-import br.com.alura.microservice.fornecedor.model.Pedido;
-import br.com.alura.microservice.fornecedor.model.PedidoItem;
-import br.com.alura.microservice.fornecedor.model.PedidoStatus;
-import br.com.alura.microservice.fornecedor.model.Produto;
-import br.com.alura.microservice.fornecedor.repository.PedidoRepository;
-import br.com.alura.microservice.fornecedor.repository.ProdutoRepository;
+import br.com.microservice.fornecedor.dto.ItemDoPedidoDTO;
+import br.com.microservice.fornecedor.model.Pedido;
+import br.com.microservice.fornecedor.model.PedidoItem;
+import br.com.microservice.fornecedor.model.PedidoStatus;
+import br.com.microservice.fornecedor.model.Produto;
+import br.com.microservice.fornecedor.repository.PedidoRepository;
+import br.com.microservice.fornecedor.repository.ProdutoRepository;
 
 @Service
 public class PedidoService {
