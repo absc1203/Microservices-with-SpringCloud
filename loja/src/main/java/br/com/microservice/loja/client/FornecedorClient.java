@@ -8,9 +8,8 @@ import br.com.microservice.loja.controller.dto.InfoFornecedorDTO;
 
 @FeignClient("fornecedor")
 public interface FornecedorClient {
-	
+
 	@RequestMapping("/info/{estado}")
 	InfoFornecedorDTO getInfoPorEstado(@PathVariable String estado);
-		
-	
+
 }

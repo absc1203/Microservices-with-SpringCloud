@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableFeignClients
 public class LojaApplication {
-	
+
 	@Bean
 	@LoadBalanced
 	public RestTemplate getRestTemplate() {
