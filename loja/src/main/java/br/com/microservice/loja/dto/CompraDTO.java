@@ -1,4 +1,4 @@
-package br.com.microservice.loja.controller.dto;
+package br.com.microservice.loja.dto;
 
 import java.util.List;
 
@@ -23,6 +23,8 @@ public class CompraDTO {
 	public void setEndereco(EnderecoDTO endereco) {
 		this.endereco = endereco;
 	}
+	
+	
 	
 	
 

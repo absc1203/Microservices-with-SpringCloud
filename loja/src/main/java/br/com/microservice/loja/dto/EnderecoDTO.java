@@ -1,4 +1,4 @@
-package br.com.microservice.loja.controller.dto;
+package br.com.microservice.loja.dto;
 
 public class EnderecoDTO {
 	
@@ -31,6 +31,13 @@ public class EnderecoDTO {
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
+
+	@Override
+	public String toString() {
+		return "EnderecoDTO [rua=" + rua + ", numero=" + numero + ", estado=" + estado + "]";
+	}
+	
+	
 	
 	
 

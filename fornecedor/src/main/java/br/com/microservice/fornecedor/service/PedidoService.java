@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 import br.com.microservice.fornecedor.dto.ItemDoPedidoDTO;
 import br.com.microservice.fornecedor.model.Pedido;
 import br.com.microservice.fornecedor.model.PedidoItem;
-import br.com.microservice.fornecedor.model.PedidoStatus;
 import br.com.microservice.fornecedor.model.Produto;
 import br.com.microservice.fornecedor.repository.PedidoRepository;
 import br.com.microservice.fornecedor.repository.ProdutoRepository;
